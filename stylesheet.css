@@ -1,0 +1,78 @@
+.h1 {
+  font-family: "Audiowide", sans-serif;
+  font-size: 100px;
+}
+.left {
+   float: left;
+  display: block;
+  width: 30%;
+}
+.right {
+  float: right;
+  margin-left: inherit;
+ display: block;
+ width: 35%;
+}
+.center {
+  float: center;
+ display: block;
+ width: 30%;
+ margin-top: auto;
+ margin-left: inherit;
+}
+.build{
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-color: pink;
+  color: white;
+
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+
+.footer-distributed {
+  background-color: pink;
+  	box-sizing: border-box;
+  	width: 100%;
+  	text-align: center;
+  	padding: 50px 50px 60px 50px;
+  	margin-top: 80px;
+}
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+  .footer-distributed .footer-right{
+  	width: 30%;
+  }
+  .footer-distributed span{
+  	display: block;
+  	color:  #ffffff;
+  	font-size: 18px;
+  	font-weight: bold;
+  	margin-bottom: 20px;
+  }
+
+.cell{
+  align: center;
+  padding-left: 75px;
+padding-right: 75px;
+}
+.ul {
+  color: #c40e3b;
+}
